@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/*
+ *       Author: Justin Ellery
+ *         Date: 2016-10-20
+ *  Description: This is the final form to display output of Character
+ */
+using System;
 using System.Windows.Forms;
 
 namespace COMP1004_F2016_Mid_Term_200197108
@@ -50,6 +48,24 @@ namespace COMP1004_F2016_Mid_Term_200197108
             FirstNameTextBox.Text = Program.character.FirstName;
             LastNameTextBox.Text = Program.character.LastName;
             RaceTextBox.Text = Program.character.Race;
+
+            switch (Program.character.Race)
+            {
+                case "Human":
+                    CharacterPictureBox.BackgroundImage = Properties.Resources.Human_Male;
+                    break;
+                case "Elf":
+                    CharacterPictureBox.BackgroundImage = Properties.Resources.Elf_Male;
+                    break;
+                case "Dwarf":
+                    CharacterPictureBox.BackgroundImage = Properties.Resources.Dwarf_Male;
+                    break;
+                case "Halfling":
+                    CharacterPictureBox.BackgroundImage = Properties.Resources.Halfling_Male;
+                    break;
+                default:
+                    return;
+            }
         }
     }
 }

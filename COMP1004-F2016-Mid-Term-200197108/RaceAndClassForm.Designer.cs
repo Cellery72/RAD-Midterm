@@ -35,7 +35,9 @@
             this.ElfRadioButton = new System.Windows.Forms.RadioButton();
             this.HumanRadioButton = new System.Windows.Forms.RadioButton();
             this.NextButton = new System.Windows.Forms.Button();
+            this.ImagePictureBox = new System.Windows.Forms.PictureBox();
             this.RaceGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ImagePictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // BackButton
@@ -99,12 +101,10 @@
             // HumanRadioButton
             // 
             this.HumanRadioButton.AutoSize = true;
-            this.HumanRadioButton.Checked = true;
             this.HumanRadioButton.Location = new System.Drawing.Point(6, 36);
             this.HumanRadioButton.Name = "HumanRadioButton";
             this.HumanRadioButton.Size = new System.Drawing.Size(79, 24);
             this.HumanRadioButton.TabIndex = 0;
-            this.HumanRadioButton.TabStop = true;
             this.HumanRadioButton.Text = "Human";
             this.HumanRadioButton.UseVisualStyleBackColor = true;
             this.HumanRadioButton.CheckedChanged += new System.EventHandler(this.RaceRadioButton_CheckedChanged);
@@ -120,6 +120,16 @@
             this.NextButton.UseVisualStyleBackColor = true;
             this.NextButton.Click += new System.EventHandler(this.NextButton_Click);
             // 
+            // ImagePictureBox
+            // 
+            this.ImagePictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ImagePictureBox.Location = new System.Drawing.Point(182, 22);
+            this.ImagePictureBox.Name = "ImagePictureBox";
+            this.ImagePictureBox.Size = new System.Drawing.Size(275, 292);
+            this.ImagePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ImagePictureBox.TabIndex = 7;
+            this.ImagePictureBox.TabStop = false;
+            // 
             // RaceAndClassForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -127,6 +137,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(504, 439);
             this.ControlBox = false;
+            this.Controls.Add(this.ImagePictureBox);
             this.Controls.Add(this.NextButton);
             this.Controls.Add(this.RaceGroupBox);
             this.Controls.Add(this.BackButton);
@@ -137,6 +148,7 @@
             this.Load += new System.EventHandler(this.RaceAndClassForm_Load);
             this.RaceGroupBox.ResumeLayout(false);
             this.RaceGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ImagePictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -150,5 +162,6 @@
         private System.Windows.Forms.RadioButton ElfRadioButton;
         private System.Windows.Forms.RadioButton HumanRadioButton;
         protected System.Windows.Forms.Button NextButton;
+        private System.Windows.Forms.PictureBox ImagePictureBox;
     }
 }

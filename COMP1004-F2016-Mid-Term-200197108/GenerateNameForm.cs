@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ *       Author: Justin Ellery
+ *         Date: 2016-10-20
+ *  Description: This is the form used to generate names.
+ */
+using System;
 using System.Windows.Forms;
 
 

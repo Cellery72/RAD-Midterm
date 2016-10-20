@@ -13,3 +13,17 @@ c:\users\justin\documents\visual studio 2015\Projects\COMP1004-F2016-Mid-Term-20
 c:\users\justin\documents\visual studio 2015\Projects\COMP1004-F2016-Mid-Term-200197108\COMP1004-F2016-Mid-Term-200197108\obj\Debug\COMP123-S2016-Lesson13.exe
 c:\users\justin\documents\visual studio 2015\Projects\COMP1004-F2016-Mid-Term-200197108\COMP1004-F2016-Mid-Term-200197108\obj\Debug\COMP123-S2016-Lesson13.pdb
 c:\users\justin\documents\visual studio 2015\Projects\COMP1004-F2016-Mid-Term-200197108\COMP1004-F2016-Mid-Term-200197108\obj\Debug\COMP1004_F2016_Mid_Term_200197108.SplashForm.resources
+C:\Users\Justin\Documents\GitHub\RAD-Midterm\COMP1004-F2016-Mid-Term-200197108\bin\Debug\COMP123-S2016-Lesson13.exe.config
+C:\Users\Justin\Documents\GitHub\RAD-Midterm\COMP1004-F2016-Mid-Term-200197108\bin\Debug\COMP123-S2016-Lesson13.exe
+C:\Users\Justin\Documents\GitHub\RAD-Midterm\COMP1004-F2016-Mid-Term-200197108\bin\Debug\COMP123-S2016-Lesson13.pdb
+C:\Users\Justin\Documents\GitHub\RAD-Midterm\COMP1004-F2016-Mid-Term-200197108\obj\Debug\COMP1004-F2016-Mid-Term-200197108.csprojResolveAssemblyReference.cache
+C:\Users\Justin\Documents\GitHub\RAD-Midterm\COMP1004-F2016-Mid-Term-200197108\obj\Debug\COMP1004_F2016_Mid_Term_200197108.AbilityGeneratorForm.resources
+C:\Users\Justin\Documents\GitHub\RAD-Midterm\COMP1004-F2016-Mid-Term-200197108\obj\Debug\COMP1004_F2016_Mid_Term_200197108.AboutBox.resources
+C:\Users\Justin\Documents\GitHub\RAD-Midterm\COMP1004-F2016-Mid-Term-200197108\obj\Debug\COMP1004_F2016_Mid_Term_200197108.FinalForm.resources
+C:\Users\Justin\Documents\GitHub\RAD-Midterm\COMP1004-F2016-Mid-Term-200197108\obj\Debug\COMP1004_F2016_Mid_Term_200197108.GenerateNameForm.resources
+C:\Users\Justin\Documents\GitHub\RAD-Midterm\COMP1004-F2016-Mid-Term-200197108\obj\Debug\COMP1004_F2016_Mid_Term_200197108.Properties.Resources.resources
+C:\Users\Justin\Documents\GitHub\RAD-Midterm\COMP1004-F2016-Mid-Term-200197108\obj\Debug\COMP1004_F2016_Mid_Term_200197108.RaceAndClassForm.resources
+C:\Users\Justin\Documents\GitHub\RAD-Midterm\COMP1004-F2016-Mid-Term-200197108\obj\Debug\COMP1004_F2016_Mid_Term_200197108.SplashForm.resources
+C:\Users\Justin\Documents\GitHub\RAD-Midterm\COMP1004-F2016-Mid-Term-200197108\obj\Debug\COMP1004-F2016-Mid-Term-200197108.csproj.GenerateResource.Cache
+C:\Users\Justin\Documents\GitHub\RAD-Midterm\COMP1004-F2016-Mid-Term-200197108\obj\Debug\COMP123-S2016-Lesson13.exe
+C:\Users\Justin\Documents\GitHub\RAD-Midterm\COMP1004-F2016-Mid-Term-200197108\obj\Debug\COMP123-S2016-Lesson13.pdb
