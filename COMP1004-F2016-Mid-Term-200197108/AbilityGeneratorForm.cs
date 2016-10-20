@@ -1,66 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using FontAwesome.Sharp;
 
 namespace COMP1004_F2016_Mid_Term_200197108
 {
     public partial class AbilityGeneratorForm : Form
     {
-        // private Instance Object
-        private Random _random;
 
-
+        public GenerateNameForm previousForm;
 
         public AbilityGeneratorForm()
         {
             InitializeComponent();
         }
 
-        private Int32 Roll()
-        {
-            // create new empty list
-            List<Int32> numbers = new List<Int32>();
-            int result = 0;
-
-            // roll 4 dice
-            for (int count = 0; count < 4; count++)
-            {
-                int generatedNumber = this._random.Next(0, 6) + 1;
-                numbers.Add(generatedNumber);
-            }
-
-            // drop the lowest die
-            numbers.Remove(numbers.Min());
-
-            // add the numbers to the result
-
-            foreach (int number in numbers)
-            {
-                result += number;
-            }
-
-            // lambda expression equivalent
-            //result = numbers.Sum(number => number);
-
-            return result;
-        }
-
+        
+        /// <summary>
+        /// Generate abilities based on random roll from utility
+        /// </summary>
         private void GenerateAbilities()
         {
-            StrengthTextBox.Text = this.Roll().ToString();
-            DexterityTextBox.Text = this.Roll().ToString();
-            ConstitutionTextBox.Text = this.Roll().ToString();
-            IntelligenceTextBox.Text = this.Roll().ToString();
-            WisdomTextBox.Text = this.Roll().ToString();
-            CharismaTextBox.Text = this.Roll().ToString();
+            StrengthTextBox.Text = Utility.Roll().ToString();
+            DexterityTextBox.Text = Utility.Roll().ToString();
+            ConstitutionTextBox.Text = Utility.Roll().ToString();
+            IntelligenceTextBox.Text = Utility.Roll().ToString();
+            WisdomTextBox.Text = Utility.Roll().ToString();
+            CharismaTextBox.Text = Utility.Roll().ToString();
         }
 
 
@@ -71,8 +35,6 @@ namespace COMP1004_F2016_Mid_Term_200197108
 
         private void GeneratorForm_Load(object sender, EventArgs e)
         {
-            this._random = new Random(); // initialize random number object
-
             GenerateAbilities();
 
         }

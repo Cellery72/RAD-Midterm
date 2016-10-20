@@ -1,12 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace COMP1004_F2016_Mid_Term_200197108
@@ -15,6 +7,7 @@ namespace COMP1004_F2016_Mid_Term_200197108
     {
         public AbilityGeneratorForm previousForm;
         private string _selectedRace;
+
 
 
         public RaceAndClassForm()
@@ -38,7 +31,7 @@ namespace COMP1004_F2016_Mid_Term_200197108
         private void RaceRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             RadioButton selectedRace = (RadioButton)sender;
-
+            Program.character.Race = selectedRace.Text;
             this._selectedRace = selectedRace.Text;
         }
 
@@ -49,6 +42,11 @@ namespace COMP1004_F2016_Mid_Term_200197108
 
             finalForm.Show();
             this.Hide();
+        }
+
+        private void RaceAndClassForm_Load(object sender, EventArgs e)
+        {
+            _selectedRace = Program.character.Race;
         }
     }
 }

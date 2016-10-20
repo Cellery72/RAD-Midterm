@@ -12,3 +12,4 @@ c:\users\justin\documents\visual studio 2015\Projects\COMP1004-F2016-Mid-Term-20
 c:\users\justin\documents\visual studio 2015\Projects\COMP1004-F2016-Mid-Term-200197108\COMP1004-F2016-Mid-Term-200197108\obj\Debug\COMP1004-F2016-Mid-Term-200197108.csproj.GenerateResource.Cache
 c:\users\justin\documents\visual studio 2015\Projects\COMP1004-F2016-Mid-Term-200197108\COMP1004-F2016-Mid-Term-200197108\obj\Debug\COMP123-S2016-Lesson13.exe
 c:\users\justin\documents\visual studio 2015\Projects\COMP1004-F2016-Mid-Term-200197108\COMP1004-F2016-Mid-Term-200197108\obj\Debug\COMP123-S2016-Lesson13.pdb
+c:\users\justin\documents\visual studio 2015\Projects\COMP1004-F2016-Mid-Term-200197108\COMP1004-F2016-Mid-Term-200197108\obj\Debug\COMP1004_F2016_Mid_Term_200197108.SplashForm.resources
